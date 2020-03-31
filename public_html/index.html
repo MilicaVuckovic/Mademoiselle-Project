@@ -1,50 +1,288 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
+<html lang="en">
+
     <head>
-        <title>Enter WebSite title</title>
+        <title>Mademoiselle</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="">
-        <meta name="description" content="">
-        <meta name="keywords" content="">
-        
-        
+        <meta name="author" content="Milica Vuckovic">
+        <meta name="description" content="Mademoiselle, Stay Up with the Latest Beauty Trends">
+        <meta name="keywords" content="mademoiselle, beauty, trend, haircut, makeup, lip">
+
+
         <!--ios compatibility-->
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-title" content="Website title">
+        <meta name="apple-mobile-web-app-title" content="Mademoiselle">
         <link rel="apple-touch-icon" href="apple-icon-144x144.png">
-        
-        
+
+
         <!--Android compatibility-->
-        
+
         <meta name="mobile-web-app-capable" content="yes">
-        <meta name="application-name" content="WebSite title">
+        <meta name="application-name" content="Mademoiselle">
         <link rel="icon" type="image/png" href="android-icon-192x192.png">
-        
-        
+
+
         <!--CSS FILES-->
-        
+
+        <link href="css/owl.carousel.css" rel="stylesheet" type="text/css"/>
+        <link href="css/owl.theme.default.min.css" rel="stylesheet" type="text/css"/>
         <link href="css/theme.css" rel="stylesheet" type="text/css"/>
-        
-        
-        
+
+
     </head>
     <body>
-        
-        
-        
-        
-        
-        
-        
+
+        <!--header start--> 
+        <header class="fixed-top bg-white py-2 py-xl-0">
+            <div class="container">
+                <!--header navigation start-->
+                <nav class="navbar navbar-expand-md navbar-light px-0 py-md-0">
+                    <!--header logo start-->
+                    <a class="navbar-brand" href="index.html">
+                        <img src="img/logo.png" alt=""/>
+                    </a><!--header logo end-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="main-menu">
+                        <ul class="navbar-nav ml-auto pt-2 pt-md-4 pt-xl-0">
+                            <li class="nav-item slideDown">
+                                <a class="nav-link" href="about.html">about</a>
+                            </li>
+                            <li class="nav-item slideDown">
+                                <a class="nav-link active" href="services.html">services</a>
+                            </li>
+                            <li class="nav-item slideDown">
+                                <a class="nav-link" href="blog.html">blog</a>
+                            </li>
+                            <li class="nav-item slideDown">
+                                <a class="nav-link" href="contact.html">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav><!--header navigation end-->
+            </div>
+        </header><!--header end-->
+        <!--main start-->
+        <main>
+            <!--lead-page-section section start-->
+            <section class="lead-page-section zoom mb-2" style="background-image: url('./img/lead/mademoiselle-home.png')">
+                <div class="container">
+                    <h1 class="lead-title">Welcome to Mademoiselle</h1>     
+                </div>
+            </section> <!--lead-page-section section end-->
+            <!--section wrapper-title start-->
+            <section class="wrapper-title mb-2 mb-xm-0">
+                <div class="container">
+                    <h2 class="section-title animation" data-animation="slideRight">stay up with the latest beauty trends</h2>
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <article class="position-relative px-3 px-md-0">
+                                <a href="#" class="d-block ">
+                                    <img class="w-100 d-block" src="img/wrapper-title/josh-calabrese-01.png" alt=""/>
+                                    <div class="wrapper-info position-absolute">
+                                        <p class="wrapper-date">07/13/2019</p>
+                                        <p class="wrapper-info-title">welcome to the online best model winner
+                                            contest at</p>
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <article class="position-relative px-3 px-md-0"> 
+                                <a href="#" class="d-block ">
+                                    <img class="d-block w-100" src="img/wrapper-title/josh-calabrese-02.png" alt=""/>
+                                    <div class="wrapper-info position-absolute">
+                                        <p class="wrapper-date">05/15/2019</p>
+                                        <p class="wrapper-info-title">aiming for higher the mastopexy</p>
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 mx-auto">
+                            <article class="position-relative px-3 px-md-0">     
+                                <a href="#" class="d-block ">
+                                    <img class="d-block w-100" src="img/wrapper-title/josh-calabrese-03.png" alt=""/>
+                                    <div class="wrapper-info position-absolute">
+                                        <p class="wrapper-date">02/15/2019</p>
+                                        <p class="wrapper-info-title">seven steps for keeping teeth healthy 
+                                            for a lifetime</p>
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section><!--section wrapper-title end-->
+            <!-- section services start-->
+            <section class="services mb-3 mb-sm-5 mb-sm-8">
+                <div class="container">
+                    <h2 class="section-title animation " data-animation="slideRight">Our Services</h2>
+                    <div class="row ">
+                        <div class="services-wrapper">
+                            <div class="col-12 col-md-6 px-0 order-md-2 second">
+                                <article>
+                                    <a href="about.html" class=" ml-0 border-0">
+                                        <img src="img/services/90657645_01.png" alt=""/>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="col-12 col-md-6 p-3 wrapper-color1">
+                                <aside>
+                                    <h2 class="services-title text-uppercase">lip augmentation lip filling with hyaluronum</h2>
+                                    <a href="about.html" class="text-uppercase btn  px-6 py-2 wrapper-color1">learn more</a>
+                                </aside>
+                            </div>
+                        </div>
+                        <div class="services-wrapper">
+                            <div class="col-12 col-md-6 px-0">
+                                <article>
+                                    <a href="about.html" class=" ml-0 border-0">
+                                        <img src="img/services/jessica_02.png" alt=""/>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="col-12 col-md-6 p-3 order-md-2 second wrapper-color2">
+                                <aside>
+                                    <h2 class="services-title text-uppercase">male and female haircut</h2>
+                                    <a href="about.html" class="text-uppercase btn  px-6 py-2 wrapper-color2">learn more</a>
+                                </aside>
+                            </div>
+                        </div>
+                        <div class="services-wrapper">
+                            <div class="col-12 col-md-6 px-0 order-md-2 second">
+                                <article>
+                                    <a href="about.html" class=" ml-0 border-0">
+                                        <img src="img/services/greg_03.png" alt=""/>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="col-12 col-md-6 p-3 wrapper-color1">
+                                <aside>
+                                    <h2 class="services-title text-uppercase">day and night makeup</h2>
+                                    <a href="about.html" class="text-uppercase btn px-6 py-2 wrapper-color1">learn more</a>
+                                </aside>
+                            </div>
+                        </div>
+                        <div class="services-wrapper">
+                            <div class="col-12 col-md-6 px-0">
+                                <article>
+                                    <a href="about.html" class=" ml-0 border-0">
+                                        <img src="img/services/viliman_04.png" alt=""/>
+                                    </a>
+                                </article>
+                            </div>
+                            <div class="col-12 col-md-6 p-3 order-md-2 second wrapper-color2">
+                                <aside>
+                                    <h2 class="services-title text-uppercase">waxing with cold and warm wax</h2>
+                                    <a href="about.html" class="text-uppercase btn px-6 py-2 wrapper-color2">learn more</a>
+                                </aside>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- section services end-->
+            <!-- section professionals start-->
+            <section class="professionals mb-6">
+                <div class="container">
+                    <div>
+                        <h2 class="section-title animation" data-animation="slideRight">Trust our professionals</h2>
+                    </div>
+                    <div class="professionals-slider owl-carousel owl-theme">
+                        <div class="professionals-member p-xm-4">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-12 col-sm-6 mb-3 pr-lg-10">
+                                    <a href="#" class="">
+                                        <img src="img/professionals/vera-valdez_.png" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6 px-3">
+                                    <article>
+                                        <a href="#" class="professionals-member-name mb-3">vera valdez</a>
+                                        <p class="professionals-section-content">Lorem Ipsum is simply dummy text of the printing and 
+                                            typesetting industry. Lorem Ipsum has been the industry's
+                                            standard dummy text ever since the 1500s, when an unknown 
+                                            printer took a galley of type and scrambled it to make a
+                                            type specimen book. It has survived not only five centuries,
+                                            but also the leap into electronic typesetting, remaining 
+                                            essentially unchanged.</p>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="professionals-member p-xm-4">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-12 col-sm-6 mb-3 pr-lg-10">
+                                    <a href="#" class="">
+                                        <img src="img/professionals/vera-valdez_.png" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6 px-3">
+                                    <article>
+                                        <a href="#" class="professionals-member-name mb-3">vera valdez</a>
+                                        <p class="professionals-section-content">Lorem Ipsum is simply dummy text of the printing and 
+                                            typesetting industry. Lorem Ipsum has been the industry's
+                                            standard dummy text ever since the 1500s, when an unknown 
+                                            printer took a galley of type and scrambled it to make a
+                                            type specimen book. It has survived not only five centuries,
+                                            but also the leap into electronic typesetting, remaining 
+                                            essentially unchanged.</p>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="professionals-member p-xm-4">
+                            <div class="row d-flex align-items-center">
+                                <div class="col-12 col-sm-6 mb-3 pr-lg-10">
+                                    <a href="#" class="">
+                                        <img src="img/professionals/vera-valdez_.png" alt=""/>
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6 px-3">
+                                    <article>
+                                        <a href="#" class="professionals-member-name mb-3">vera valdez</a>
+                                        <p class="professionals-section-content">Lorem Ipsum is simply dummy text of the printing and 
+                                            typesetting industry. Lorem Ipsum has been the industry's
+                                            standard dummy text ever since the 1500s, when an unknown 
+                                            printer took a galley of type and scrambled it to make a
+                                            type specimen book. It has survived not only five centuries,
+                                            but also the leap into electronic typesetting, remaining 
+                                            essentially unchanged.</p>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section><!-- section professionals end-->
+        </main> <!--main end-->
+        <!--footer start-->
+        <footer>
+            <div class="container">
+                <nav class="d-flex justify-content-center mb-3">
+                    <div><a href="#" class="fab fa-facebook-f text-primary mr-2"></a></div>
+                    <div><a href="#" class="fab fa-twitter text-primary mr-2"></a></div>
+                    <div><a href="#" class="fab fa-instagram text-primary mr-2"></a></div>
+                </nav>
+                <p class="text-center mb-4">Copyright &copy; 2019 Mademoiselle</p>
+            </div>
+        </footer><!--footer end-->
+
+
+
+
+
+
+
+
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
-        
+
+        <script src="js/owl.carousel.min.js" type="text/javascript"></script>
         <!--font awesome icons-->
         <script src="https://kit.fontawesome.com/85bd05dd45.js"></script>
         <script src="js/main.js" type="text/javascript"></script>

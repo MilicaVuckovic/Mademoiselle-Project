@@ -1,0 +1,46 @@
+
+.professionals{
+    .professionals-slider{
+        border: 1px solid #ECD9D9;
+    }
+    .professionals-member-name{
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 18px;
+        text-transform: uppercase;
+    }
+    .professionals-section-content{
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 23px;
+    }
+    .owl-dots{
+        .owl-dot{
+            span{
+                height: 8px;
+                width: 8px;
+                background-color: $primary;
+            }
+            &.active span{
+                background-color: darken($primary, 15%);
+            }
+        }
+    }
+}
+@media (min-width:992px){
+    .professionals{
+        margin-bottom: 6.7rem !important;
+        .professionals-member-name{
+            font-size: 30px;
+            letter-spacing: 0;
+            line-height: 27px;
+        }
+        .row{
+            padding: 5.4rem 9.5rem;
+        }
+        .owl-dots{
+            margin-bottom: 20px;
+
+        }
+    }
+}

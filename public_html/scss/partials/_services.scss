@@ -1,0 +1,61 @@
+$wrapper-color1: #F5F5F5;
+$wrapper-color2: $primary;
+
+.services{
+    .services-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        .services-title{
+            font-size: 25px;
+            letter-spacing: 0;
+            line-height: 24px;
+            margin-bottom: 3rem;
+        }
+        .wrapper-color1{
+            background-color: $wrapper-color1;
+            a{
+                &:hover{
+                    background-color: darken($wrapper-color1, 10%);
+                }
+            }
+        }
+        .wrapper-color2{
+            background-color: $wrapper-color2;
+            a{
+                &:hover{
+                    background-color: darken($primary, 10%);
+                }
+            }
+        }
+        a{
+            text-align: center;
+            border: 1px solid #1E1E1E;
+            border-radius: 0;
+        }
+    }
+}
+@media (min-width:576px){
+    .services{
+        .row{
+            h2{
+                padding-top: 5rem;
+            }
+        }
+
+    }
+}
+@media (min-width:992px){
+    .services{
+        .row{
+            h2{
+                padding-top: 14.3rem;
+                padding-left:9.5rem;
+                padding-right:9.5rem;
+            }
+            a{
+                margin-left: 9.5rem;
+
+            }
+        }
+    }
+}

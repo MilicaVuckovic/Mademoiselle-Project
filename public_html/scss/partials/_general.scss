@@ -1,3 +1,6 @@
+$default-font: $lato;
+$default-font-title: $bodoni;
+
 
 img{
     max-width: 100%;
@@ -5,4 +8,45 @@ img{
 
 html{
     font-size: 10px; // 1 rem
+}
+
+a{
+    display: block;
+}
+
+body{
+    font-family: $default-font;
+    font-weight: $font-weight-normal;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $default-font-title;
+}
+
+p{
+    line-height: 24px;
+}
+
+h1{
+    font-weight: $font-weight-light;
+
+}
+
+.section-title{
+    text-transform: uppercase;
+    color: $gray-900;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-weight: $font-light;
+    margin-bottom: 15px;
+
+    &:after{
+        content: '';
+        height: 1px;
+        width: 60px;
+        border: 1px solid $primary;
+        display: block;
+        margin-top: 3px; 
+    }
 }
