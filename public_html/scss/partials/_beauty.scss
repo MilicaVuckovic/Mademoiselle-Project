@@ -1,0 +1,112 @@
+.beauty{
+    h2{
+        text-transform: uppercase;
+        font-family: Lato;
+        font-size: 25px;
+        letter-spacing: 0;
+        line-height: 20px;
+        font-weight: $font-regular;
+        margin-bottom: 2rem;
+    }
+    .first-paragraph{
+        font-weight: $font-light;
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: 20px;
+        margin-bottom: 2rem;
+    }
+    figure{
+        margin-bottom: 2rem;
+    }
+    figure + p{
+        font-size: 15px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 20px;  
+        margin-bottom: 3rem;
+    }
+    .wrapper-title{
+        input{
+            min-width: 100%;
+        }
+        .search_icon{
+            bottom: 1px;
+            left: 80%;  
+        }
+    }
+}
+@media(min-width:450px){
+    .beauty{
+        .wrapper-title{
+            input{
+                min-width: 50%;
+            }
+            .search_icon{
+                bottom: 1px;
+                left: 40%;  
+            }
+        }
+    }
+}
+@media(min-width:576px){
+    .beauty{
+        .wrapper-title{
+            article{
+                margin-bottom: 16rem; 
+            }
+            input{
+                min-width: 100%;
+            }
+            .search_icon{
+                bottom: 1px;
+                left: 80%;  
+            }
+        }
+    }
+}
+@media(min-width:768px){
+    .beauty{
+        .wrapper-title{
+            article{
+                margin-bottom: 10rem; 
+            }
+        }
+    }
+}
+@media(min-width:992px){
+    .first-row{
+        padding-right: 12px;
+    }
+    .about{
+        margin-bottom: 9.1rem !important;
+    }
+    .beauty{
+        h2{
+            font-size: 44px;
+            line-height: 50px;
+        }
+        .first-paragraph{
+            font-size: 20px;
+            line-height: 28px;
+            margin-bottom: 2.9rem;
+        }
+        figure{
+            margin-bottom: 6.6rem;
+        }
+        figure + p{
+            font-size: 18px;
+            letter-spacing: 0;
+            line-height: 26px;  
+            margin-bottom: 14.3rem;
+        }
+        .wrapper-title{
+            .input{
+                margin-bottom: 4.3rem !important;
+            }
+            .search_icon{
+                bottom: 1px;
+                left: 80%;  
+            }
+        }
+    }
+}

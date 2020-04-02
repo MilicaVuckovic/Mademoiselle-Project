@@ -27,6 +27,15 @@
         }
     }
 }
+@media(min-width:768px){
+    .professionals{
+
+        .owl-dots{
+        }
+
+
+    }
+}
 @media (min-width:992px){
     .professionals{
         margin-bottom: 6.7rem !important;
@@ -39,7 +48,10 @@
             padding: 5.4rem 9.5rem;
         }
         .owl-dots{
-            margin-bottom: 20px;
+            margin-bottom: 22px;
+            position: absolute;
+            bottom: 53px;
+            left: 51%; 
 
         }
     }

@@ -12625,7 +12625,7 @@ header .navbar-nav .nav-link:hover {
 }
 
 .wrapper-title article {
-  margin-bottom: 6rem;
+  margin-bottom: 7rem;
 }
 
 .wrapper-title article img {
@@ -12827,12 +12827,15 @@ header .navbar-nav .nav-link:hover {
     padding: 5.4rem 9.5rem;
   }
   .professionals .owl-dots {
-    margin-bottom: 20px;
+    margin-bottom: 22px;
+    position: absolute;
+    bottom: 53px;
+    left: 51%;
   }
 }
 
 footer a {
-  transition: 0.2s linear;
+  transition: 0.1s linear;
 }
 
 footer a:hover {
@@ -12843,6 +12846,108 @@ footer p {
   font-size: 12px;
   letter-spacing: -0.17px;
   line-height: 41px;
+}
+
+.beauty h2 {
+  text-transform: uppercase;
+  font-family: Lato;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.beauty .first-paragraph {
+  font-weight: 300;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-bottom: 2rem;
+}
+
+.beauty figure {
+  margin-bottom: 2rem;
+}
+
+.beauty figure + p {
+  font-size: 15px;
+  font-weight: 300;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-bottom: 3rem;
+}
+
+.beauty .wrapper-title input {
+  min-width: 100%;
+}
+
+.beauty .wrapper-title .search_icon {
+  bottom: 1px;
+  left: 80%;
+}
+
+@media (min-width: 450px) {
+  .beauty .wrapper-title input {
+    min-width: 50%;
+  }
+  .beauty .wrapper-title .search_icon {
+    bottom: 1px;
+    left: 40%;
+  }
+}
+
+@media (min-width: 576px) {
+  .beauty .wrapper-title article {
+    margin-bottom: 16rem;
+  }
+  .beauty .wrapper-title input {
+    min-width: 100%;
+  }
+  .beauty .wrapper-title .search_icon {
+    bottom: 1px;
+    left: 80%;
+  }
+}
+
+@media (min-width: 768px) {
+  .beauty .wrapper-title article {
+    margin-bottom: 10rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .first-row {
+    padding-right: 12px;
+  }
+  .about {
+    margin-bottom: 9.1rem !important;
+  }
+  .beauty h2 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+  .beauty .first-paragraph {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 2.9rem;
+  }
+  .beauty figure {
+    margin-bottom: 6.6rem;
+  }
+  .beauty figure + p {
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 26px;
+    margin-bottom: 14.3rem;
+  }
+  .beauty .wrapper-title .input {
+    margin-bottom: 4.3rem !important;
+  }
+  .beauty .wrapper-title .search_icon {
+    bottom: 1px;
+    left: 80%;
+  }
 }
 
 /*# sourceMappingURL=theme.css.map */
