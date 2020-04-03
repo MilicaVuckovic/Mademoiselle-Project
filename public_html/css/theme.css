@@ -12624,6 +12624,10 @@ header .navbar-nav .nav-link:hover {
   }
 }
 
+.wrapper-title input {
+  line-height: 45px;
+}
+
 .wrapper-title article {
   margin-bottom: 7rem;
 }
@@ -12883,7 +12887,7 @@ footer p {
 }
 
 .beauty .wrapper-title .search_icon {
-  bottom: 1px;
+  bottom: 10px;
   left: 80%;
 }
 
@@ -12892,7 +12896,6 @@ footer p {
     min-width: 50%;
   }
   .beauty .wrapper-title .search_icon {
-    bottom: 1px;
     left: 40%;
   }
 }
@@ -12905,7 +12908,6 @@ footer p {
     min-width: 100%;
   }
   .beauty .wrapper-title .search_icon {
-    bottom: 1px;
     left: 80%;
   }
 }
@@ -12945,8 +12947,25 @@ footer p {
     margin-bottom: 4.3rem !important;
   }
   .beauty .wrapper-title .search_icon {
-    bottom: 1px;
     left: 80%;
+  }
+}
+
+.blog {
+  margin-bottom: 5rem;
+}
+
+.blog .blog-slider .owl-dot span {
+  background-color: transparent;
+}
+
+.blog .blog-slider .owl-dot.active span {
+  background-color: transparent;
+}
+
+@media (min-width: 1200px) {
+  .blog-lead {
+    margin-bottom: 8.8rem !important;
   }
 }
 

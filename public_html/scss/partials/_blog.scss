@@ -1,0 +1,19 @@
+
+.blog{
+    margin-bottom: 5rem;
+    .blog-slider{
+        .owl-dot{
+            span{
+                background-color: transparent;
+            }
+            &.active span{
+                background-color: transparent;
+            }
+        }
+    }
+}
+@media (min-width:1200px){
+    .blog-lead{
+        margin-bottom: 8.8rem !important;
+    }
+}

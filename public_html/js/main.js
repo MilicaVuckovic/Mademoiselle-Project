@@ -34,22 +34,33 @@ $(document).ready(function () {
                 },
                 992: {
                     items: 1,
-                    margin: 72
+                    margin: 12
                 }
             }
         });
     }
 
-
-
-
-
-
-
-
-
-
-
+    if ($('.blog-slider').length > 0) {
+        $('.blog-slider').owlCarousel({
+            autoplay: true,
+            loop: true,
+            nav: false,
+            dots: true,
+            dotsData: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 1
+                },
+                992: {
+                    items: 1,
+                    margin: 14
+                }
+            }
+        });
+    }
 
 
 });
