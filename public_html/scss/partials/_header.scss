@@ -1,7 +1,7 @@
 $toggler-bg: $primary;
 header{
     .navbar-brand{
-        max-width: 50%;
+        max-width: 65%;
     }
     .navbar-toggler{
         border: none;
@@ -33,8 +33,19 @@ header{
         }
     }
 }
+@media (min-width:576px){
+    header{
+        .navbar-brand{
+            max-width: 50%;
+        }
+    }
+}
+
 @media (min-width:768px){
     header{
+        .navbar-brand{
+            max-width: 40%;
+        }
         .navbar-nav{
             .nav-item{
                 margin-left: 10px;
@@ -56,7 +67,6 @@ header{
     header{
         .navbar-brand{
             max-width: 25%;
-            transition: 0.5s linear;
         }
     }
 }
