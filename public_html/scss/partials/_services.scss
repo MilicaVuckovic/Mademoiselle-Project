@@ -35,6 +35,9 @@ $wrapper-color2: $primary;
     }
 }
 @media (min-width:576px){
+    .lead-page-section{
+        margin-bottom: 5rem !important;
+    }
     .services{
         .row{
             h2{
@@ -45,6 +48,9 @@ $wrapper-color2: $primary;
     }
 }
 @media (min-width:992px){
+    .lead-page-section{
+        margin-bottom: 8.8rem !important;
+    }
     .services{
         .row{
             h2{

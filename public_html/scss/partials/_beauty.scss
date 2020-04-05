@@ -29,6 +29,10 @@
         input{
             min-width: 100%;
         }
+        input::placeholder{
+            font-style: italic;
+            font-weight: $font-light;
+        }
         .search_icon{
             bottom: 10px;
             left: 80%;  
@@ -79,6 +83,7 @@
         margin-bottom: 9.1rem !important;
     }
     .beauty{
+        margin-bottom: 14.3rem;
         h2{
             font-size: 44px;
             line-height: 50px;
@@ -95,7 +100,6 @@
             font-size: 18px;
             letter-spacing: 0;
             line-height: 26px;  
-            margin-bottom: 14.3rem;
         }
         .wrapper-title{
             .input{

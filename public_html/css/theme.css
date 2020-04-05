@@ -12783,12 +12783,18 @@ header .navbar-nav .nav-link:hover {
 }
 
 @media (min-width: 576px) {
+  .lead-page-section {
+    margin-bottom: 5rem !important;
+  }
   .services .row h2 {
     padding-top: 5rem;
   }
 }
 
 @media (min-width: 992px) {
+  .lead-page-section {
+    margin-bottom: 8.8rem !important;
+  }
   .services .row h2 {
     padding-top: 14.3rem;
     padding-left: 9.5rem;
@@ -12850,6 +12856,11 @@ footer {
   margin-left: 3rem;
 }
 
+footer nav {
+  padding-top: 4.6rem;
+  padding-bottom: 1.7rem;
+}
+
 footer a {
   transition: 0.1s linear;
 }
@@ -12862,6 +12873,7 @@ footer p {
   font-size: 12px;
   letter-spacing: -0.17px;
   line-height: 41px;
+  padding-bottom: 2.5rem;
 }
 
 .beauty h2 {
@@ -12896,6 +12908,11 @@ footer p {
 
 .beauty .wrapper-title input {
   min-width: 100%;
+}
+
+.beauty .wrapper-title input::placeholder {
+  font-style: italic;
+  font-weight: 300;
 }
 
 .beauty .wrapper-title .search_icon {
@@ -12937,6 +12954,9 @@ footer p {
   .about {
     margin-bottom: 9.1rem !important;
   }
+  .beauty {
+    margin-bottom: 14.3rem;
+  }
   .beauty h2 {
     font-size: 44px;
     line-height: 50px;
@@ -12953,7 +12973,6 @@ footer p {
     font-size: 18px;
     letter-spacing: 0;
     line-height: 26px;
-    margin-bottom: 14.3rem;
   }
   .beauty .wrapper-title .input {
     margin-bottom: 4.3rem !important;
