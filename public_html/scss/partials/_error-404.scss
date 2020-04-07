@@ -1,0 +1,30 @@
+.error{
+    .lead-title{
+        padding-top: 15rem;
+        padding-bottom: 0;
+    }
+    a{
+        color: #FFFFFF;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        line-height: 12px;
+        border: 1px solid #FFFFFF;
+        display: inline-block;
+        padding: 2px 5px; 
+    }
+
+}
+@media (min-width:1200px){
+    .error{
+        padding-top: 7rem; 
+        padding-bottom: 27.7rem;
+        .lead-title{
+            padding-bottom: 3.2rem;
+        }
+        a{
+            font-size: 14px;
+            line-height: 17px;
+            padding: 13px 30px;
+        }
+    }
+}

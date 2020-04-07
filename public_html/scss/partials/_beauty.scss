@@ -29,7 +29,7 @@
         input{
             min-width: 100%;
         }
-        input::placeholder{
+        ::placeholder{
             font-style: italic;
             font-weight: $font-light;
         }

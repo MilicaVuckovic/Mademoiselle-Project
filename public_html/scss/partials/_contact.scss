@@ -1,0 +1,105 @@
+.contact-form-section{
+    margin-top: 8rem;
+    h2{
+        font-size: 20px;
+        font-weight: $font-light;
+        letter-spacing: 1px;
+        line-height: 25px;
+        margin-bottom: 2rem;
+    }
+    .contact-form{
+        .form-control{
+            border: 1px solid transparent;
+            color: $gray-900;
+            font-size: 16px;
+            font-weight: $font-light;
+            letter-spacing: -0.23px;
+            line-height: 25px;
+            height: auto;
+        }
+        .form-control.is-invalid{
+            border-color: red;
+        }
+        button{
+            border: 1px solid $gray-900;
+            border-radius: 0;
+            font-size: 14px;
+            letter-spacing: 0.5px;
+            line-height: 15px;
+            padding: 5px 5px;
+        }
+    }
+    .contact-map{
+        width: 320px;
+        height: 320px;
+
+    }
+}
+.info-contact{
+    margin-top: 35rem;
+    padding: 2rem 0;
+
+}
+
+
+@media (min-width:576px){
+    .contact-form-section{
+
+        .contact-map{
+            top:0;
+            right:0;
+            padding-left: 10px;
+
+        }
+    }
+    .info-contact{
+        margin-top: 5rem;
+        padding: 2rem 0;
+    }
+}
+
+@media (min-width:768px){
+    .contact-form-section{
+        .contact-map{
+            width: 90%;
+            padding-left: 4rem;
+        }
+    }
+
+}
+@media (min-width:992px){
+    .contact-form-section{
+        h2{
+            font-size: 30px;
+            letter-spacing: 5px;
+            line-height: 45px;
+        }
+        .contact-form{
+            button{
+                font-size: 14px;
+                letter-spacing: 0.5px;
+                line-height: 17px;
+                padding: 13px 30px;
+            }
+        }
+        .contact-map{
+            max-height: 400px;
+        }
+    }
+}
+@media (min-width:1200px){
+    .contact-form-section{
+        margin-top: 20.2rem;
+       
+    }
+
+    .info-contact{
+        font-size: 24px;
+        font-weight: $font-light;
+        letter-spacing: 0;
+        line-height: 25px;
+        padding: 6rem;
+        margin-bottom: 4.6rem;
+    }
+}
+
