@@ -40,27 +40,7 @@ $(document).ready(function () {
         });
     }
 
-    if ($('.blog-slider').length > 0) {
-        $('.blog-slider').owlCarousel({
-            autoplay: true,
-            loop: true,
-            nav: false,
-            dots: true,
-            dotsData: true,
-            responsive: {
-                0: {
-                    items: 1
-                },
-                768: {
-                    items: 1
-                },
-                992: {
-                    items: 1,
-                    margin: 14
-                }
-            }
-        });
-    }
+   
 
     if ($('.contact-form').length > 0) {
         $(function () {

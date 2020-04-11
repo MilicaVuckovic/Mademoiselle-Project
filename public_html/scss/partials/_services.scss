@@ -1,17 +1,8 @@
 $wrapper-color1: #F5F5F5;
-$wrapper-color2: $primary;
 
 .services{
-    .services-wrapper{
-        display: flex;
-        flex-wrap: wrap;
-        .services-title{
-            font-size: 25px;
-            letter-spacing: 0;
-            line-height: 24px;
-            margin-bottom: 3rem;
-        }
-        .wrapper-color1{
+    .services-item{
+        &:nth-of-type(odd){
             background-color: $wrapper-color1;
             a{
                 &:hover{
@@ -19,18 +10,28 @@ $wrapper-color2: $primary;
                 }
             }
         }
-        .wrapper-color2{
-            background-color: $wrapper-color2;
+        &:nth-of-type(even){
+            background-color: $primary; 
             a{
                 &:hover{
                     background-color: darken($primary, 10%);
                 }
             }
+        } 
+        .services-title{
+            font-size: 20px;
+            letter-spacing: 0;
+            line-height: 24px;
+            margin-bottom: 3rem;
+            margin-top: 1rem;
         }
-        a{
-            text-align: center;
-            border: 1px solid #1E1E1E;
-            border-radius: 0;
+        aside{
+            a{
+                text-align: center;
+                border: 1px solid $gray-900;
+                border-radius: 0;
+                margin-bottom: 1rem;
+            }
         }
     }
 }
@@ -39,27 +40,54 @@ $wrapper-color2: $primary;
         margin-bottom: 5rem !important;
     }
     .services{
-        .row{
-            h2{
-                padding-top: 5rem;
+        .services-item{
+            margin-bottom: 4rem;
+        }
+    }
+}
+@media (min-width:768px){
+    .services{
+        .services-item{
+            margin-bottom: 0;
+            &:nth-of-type(odd){
+                .col-12{
+                    &:first-child{
+                        order: 2;
+                    }
+                    &:last-child{
+                        order: 1;
+                    }
+                }
+            }
+            .row{
+                &:last-child{
+                    padding-left: 6px;
+                    padding-right: 6px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
             }
         }
-
     }
 }
 @media (min-width:992px){
     .lead-page-section{
         margin-bottom: 8.8rem !important;
     }
+}
+@media (min-width:1200px){
     .services{
-        .row{
-            h2{
-                padding-top: 14.3rem;
-                padding-left:9.5rem;
-                padding-right:9.5rem;
-            }
-            a{
-                margin-left: 9.5rem;
+        .services-item{
+            margin-bottom: 0;
+            aside{
+                padding: 0 9.5rem;
+                .services-title{
+                    font-size: 36px;
+                    line-height: 44px;
+
+                }
             }
         }
     }

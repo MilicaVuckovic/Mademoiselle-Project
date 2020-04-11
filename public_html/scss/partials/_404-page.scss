@@ -1,4 +1,4 @@
-.error{
+.error-page{
     .lead-title{
         padding-top: 15rem;
         padding-bottom: 0;
@@ -12,10 +12,9 @@
         display: inline-block;
         padding: 2px 5px; 
     }
-
 }
 @media (min-width:1200px){
-    .error{
+    .error-page{
         padding-top: 7rem; 
         padding-bottom: 27.7rem;
         .lead-title{

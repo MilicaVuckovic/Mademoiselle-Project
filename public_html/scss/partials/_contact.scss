@@ -32,16 +32,16 @@
     .contact-map{
         width: 320px;
         height: 320px;
-
     }
 }
 .info-contact{
-    margin-top: 35rem;
     padding: 2rem 0;
-
 }
-
-
+@media (min-width:350px){
+    .info-contact{
+        margin-top: 15rem;
+    }
+}
 @media (min-width:576px){
     .contact-form-section{
 
@@ -49,15 +49,13 @@
             top:0;
             right:0;
             padding-left: 10px;
-
         }
     }
     .info-contact{
-        margin-top: 5rem;
+        margin-top: 40rem;
         padding: 2rem 0;
     }
 }
-
 @media (min-width:768px){
     .contact-form-section{
         .contact-map{
@@ -65,7 +63,6 @@
             padding-left: 4rem;
         }
     }
-
 }
 @media (min-width:992px){
     .contact-form-section{
@@ -86,14 +83,17 @@
             max-height: 400px;
         }
     }
+    .info-contact{
+        margin-top: 0;
+    }
 }
 @media (min-width:1200px){
     .contact-form-section{
-        margin-top: 20.2rem;
-       
+        margin-top: 12rem;
+        margin-bottom: 11rem;
     }
-
     .info-contact{
+        margin-top: 0;
         font-size: 24px;
         font-weight: $font-light;
         letter-spacing: 0;

@@ -57,12 +57,7 @@
             article{
                 margin-bottom: 16rem; 
             }
-            input{
-                min-width: 100%;
-            }
-            .search_icon{
-                left: 80%;  
-            }
+
         }
     }
 }
@@ -70,7 +65,10 @@
     .beauty{
         .wrapper-title{
             article{
-                margin-bottom: 10rem; 
+                margin-bottom: 4rem; 
+            }
+            .wrapper-info{
+                top: 79%;
             }
         }
     }
@@ -105,9 +103,14 @@
             .input{
                 margin-bottom: 4.3rem !important;
             }
+            input{
+                min-width: 100%;
+            }
             .search_icon{
                 left: 80%;  
             }
+            article{
+                margin-bottom: 10rem;            }
         }
     }
 }

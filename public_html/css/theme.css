@@ -12748,46 +12748,62 @@ header .navbar-nav .nav-link:hover {
   }
 }
 
-.services .services-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.services .services-wrapper .services-title {
-  font-size: 25px;
-  letter-spacing: 0;
-  line-height: 24px;
-  margin-bottom: 3rem;
-}
-
-.services .services-wrapper .wrapper-color1 {
+.services .services-item:nth-of-type(odd) {
   background-color: #F5F5F5;
 }
 
-.services .services-wrapper .wrapper-color1 a:hover {
+.services .services-item:nth-of-type(odd) a:hover {
   background-color: gainsboro;
 }
 
-.services .services-wrapper .wrapper-color2 {
+.services .services-item:nth-of-type(even) {
   background-color: #ECD9D9;
 }
 
-.services .services-wrapper .wrapper-color2 a:hover {
+.services .services-item:nth-of-type(even) a:hover {
   background-color: #dbb7b7;
 }
 
-.services .services-wrapper a {
+.services .services-item .services-title {
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+}
+
+.services .services-item aside a {
   text-align: center;
   border: 1px solid #1E1E1E;
   border-radius: 0;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 576px) {
   .lead-page-section {
     margin-bottom: 5rem !important;
   }
-  .services .row h2 {
-    padding-top: 5rem;
+  .services .services-item {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .services .services-item {
+    margin-bottom: 0;
+  }
+  .services .services-item:nth-of-type(odd) .col-12:first-child {
+    order: 2;
+  }
+  .services .services-item:nth-of-type(odd) .col-12:last-child {
+    order: 1;
+  }
+  .services .services-item .row:last-child {
+    padding-left: 6px;
+    padding-right: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -12795,13 +12811,18 @@ header .navbar-nav .nav-link:hover {
   .lead-page-section {
     margin-bottom: 8.8rem !important;
   }
-  .services .row h2 {
-    padding-top: 14.3rem;
-    padding-left: 9.5rem;
-    padding-right: 9.5rem;
+}
+
+@media (min-width: 1200px) {
+  .services .services-item {
+    margin-bottom: 0;
   }
-  .services .row a {
-    margin-left: 9.5rem;
+  .services .services-item aside {
+    padding: 0 9.5rem;
+  }
+  .services .services-item aside .services-title {
+    font-size: 36px;
+    line-height: 44px;
   }
 }
 
@@ -12909,17 +12930,14 @@ header .navbar-nav .nav-link:hover {
   .beauty .wrapper-title article {
     margin-bottom: 16rem;
   }
-  .beauty .wrapper-title input {
-    min-width: 100%;
-  }
-  .beauty .wrapper-title .search_icon {
-    left: 80%;
-  }
 }
 
 @media (min-width: 768px) {
   .beauty .wrapper-title article {
-    margin-bottom: 10rem;
+    margin-bottom: 4rem;
+  }
+  .beauty .wrapper-title .wrapper-info {
+    top: 79%;
   }
 }
 
@@ -12953,8 +12971,14 @@ header .navbar-nav .nav-link:hover {
   .beauty .wrapper-title .input {
     margin-bottom: 4.3rem !important;
   }
+  .beauty .wrapper-title input {
+    min-width: 100%;
+  }
   .beauty .wrapper-title .search_icon {
     left: 80%;
+  }
+  .beauty .wrapper-title article {
+    margin-bottom: 10rem;
   }
 }
 
@@ -13229,8 +13253,13 @@ header .navbar-nav .nav-link:hover {
 }
 
 .info-contact {
-  margin-top: 35rem;
   padding: 2rem 0;
+}
+
+@media (min-width: 350px) {
+  .info-contact {
+    margin-top: 15rem;
+  }
 }
 
 @media (min-width: 576px) {
@@ -13240,7 +13269,7 @@ header .navbar-nav .nav-link:hover {
     padding-left: 10px;
   }
   .info-contact {
-    margin-top: 5rem;
+    margin-top: 40rem;
     padding: 2rem 0;
   }
 }
@@ -13267,13 +13296,18 @@ header .navbar-nav .nav-link:hover {
   .contact-form-section .contact-map {
     max-height: 400px;
   }
+  .info-contact {
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 1200px) {
   .contact-form-section {
-    margin-top: 20.2rem;
+    margin-top: 12rem;
+    margin-bottom: 11rem;
   }
   .info-contact {
+    margin-top: 0;
     font-size: 24px;
     font-weight: 300;
     letter-spacing: 0;
@@ -13283,12 +13317,12 @@ header .navbar-nav .nav-link:hover {
   }
 }
 
-.error .lead-title {
+.error-page .lead-title {
   padding-top: 15rem;
   padding-bottom: 0;
 }
 
-.error a {
+.error-page a {
   color: #FFFFFF;
   font-size: 12px;
   letter-spacing: 0.5px;
@@ -13299,14 +13333,14 @@ header .navbar-nav .nav-link:hover {
 }
 
 @media (min-width: 1200px) {
-  .error {
+  .error-page {
     padding-top: 7rem;
     padding-bottom: 27.7rem;
   }
-  .error .lead-title {
+  .error-page .lead-title {
     padding-bottom: 3.2rem;
   }
-  .error a {
+  .error-page a {
     font-size: 14px;
     line-height: 17px;
     padding: 13px 30px;
