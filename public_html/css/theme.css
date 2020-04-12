@@ -12903,8 +12903,13 @@ header .navbar-nav .nav-link:hover {
   margin-bottom: 3rem;
 }
 
-.beauty .wrapper-title input {
-  min-width: 100%;
+.beauty .wrapper-title .form-control {
+  background-color: #ffff;
+}
+
+.beauty .wrapper-title .input-group {
+  border: 1px solid #1E1E1E;
+  min-height: 60px;
 }
 
 .beauty .wrapper-title ::placeholder {
@@ -12913,17 +12918,12 @@ header .navbar-nav .nav-link:hover {
 }
 
 .beauty .wrapper-title .search_icon {
-  bottom: 10px;
-  left: 80%;
+  left: 85%;
+  top: 15px;
 }
 
-@media (min-width: 450px) {
-  .beauty .wrapper-title input {
-    min-width: 50%;
-  }
-  .beauty .wrapper-title .search_icon {
-    left: 40%;
-  }
+.beauty .wrapper-title .btn-outline-secondary {
+  border-color: transparent;
 }
 
 @media (min-width: 576px) {
@@ -12968,14 +12968,8 @@ header .navbar-nav .nav-link:hover {
     letter-spacing: 0;
     line-height: 26px;
   }
-  .beauty .wrapper-title .input {
+  .beauty .wrapper-title .input-group {
     margin-bottom: 4.3rem !important;
-  }
-  .beauty .wrapper-title input {
-    min-width: 100%;
-  }
-  .beauty .wrapper-title .search_icon {
-    left: 80%;
   }
   .beauty .wrapper-title article {
     margin-bottom: 10rem;

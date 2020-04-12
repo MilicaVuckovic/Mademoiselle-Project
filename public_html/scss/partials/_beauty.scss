@@ -26,28 +26,23 @@
         margin-bottom: 3rem;
     }
     .wrapper-title{
-        input{
-            min-width: 100%;
+        .form-control{
+            background-color: #ffff;
+        }
+        .input-group{
+            border: 1px solid $gray-900;
+            min-height: 60px;
         }
         ::placeholder{
             font-style: italic;
             font-weight: $font-light;
         }
         .search_icon{
-            bottom: 10px;
-            left: 80%;  
+            left: 85%;  
+            top: 15px;
         }
-    }
-}
-@media(min-width:450px){
-    .beauty{
-        .wrapper-title{
-            input{
-                min-width: 50%;
-            }
-            .search_icon{
-                left: 40%;  
-            }
+        .btn-outline-secondary{
+            border-color: transparent;
         }
     }
 }
@@ -57,7 +52,6 @@
             article{
                 margin-bottom: 16rem; 
             }
-
         }
     }
 }
@@ -100,14 +94,8 @@
             line-height: 26px;  
         }
         .wrapper-title{
-            .input{
+            .input-group{
                 margin-bottom: 4.3rem !important;
-            }
-            input{
-                min-width: 100%;
-            }
-            .search_icon{
-                left: 80%;  
             }
             article{
                 margin-bottom: 10rem;            }
